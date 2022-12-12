@@ -11,6 +11,7 @@
 		12992DCA294741C3000BCC6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12992DC9294741C3000BCC6D /* LoginViewController.swift */; };
 		12992DCF294741C4000BCC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12992DCE294741C4000BCC6D /* Assets.xcassets */; };
 		12992DD2294741C4000BCC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12992DD0294741C4000BCC6D /* LaunchScreen.storyboard */; };
+		12992DDD29474926000BCC6D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12992DDC29474926000BCC6D /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		12992DCE294741C4000BCC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12992DD1294741C4000BCC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12992DD3294741C4000BCC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12992DDC29474926000BCC6D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +38,6 @@
 		12992DB9294741C3000BCC6D = {
 			isa = PBXGroup;
 			children = (
-				12992DD929474212000BCC6D /* Files */,
 				12992DC4294741C3000BCC6D /* Benki */,
 				12992DC3294741C3000BCC6D /* Products */,
 			);
@@ -53,8 +54,9 @@
 		12992DC4294741C3000BCC6D /* Benki */ = {
 			isa = PBXGroup;
 			children = (
+				12992DD929474212000BCC6D /* Files */,
+				12992DDB294748DA000BCC6D /* Login */,
 				12992DC5294741C3000BCC6D /* AppDelegate.swift */,
-				12992DC9294741C3000BCC6D /* LoginViewController.swift */,
 				12992DD3294741C4000BCC6D /* Info.plist */,
 			);
 			path = Benki;
@@ -67,6 +69,15 @@
 				12992DD0294741C4000BCC6D /* LaunchScreen.storyboard */,
 			);
 			path = Files;
+			sourceTree = "<group>";
+		};
+		12992DDB294748DA000BCC6D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				12992DC9294741C3000BCC6D /* LoginViewController.swift */,
+				12992DDC29474926000BCC6D /* LoginView.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12992DDD29474926000BCC6D /* LoginView.swift in Sources */,
 				12992DCA294741C3000BCC6D /* LoginViewController.swift in Sources */,
 				12992DC6294741C3000BCC6D /* AppDelegate.swift in Sources */,
 			);
