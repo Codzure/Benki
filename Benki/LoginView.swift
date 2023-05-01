@@ -54,6 +54,12 @@ extension LoginView {
         
         layer.cornerRadius = 5
         clipsToBounds = true
+        
+        // Outsourced
+        layer.shadowOpacity = 0.75
+        layer.shadowOffset = CGSize(width: 0, height: 3)
+        layer.shadowRadius = 3.0
+        layer.isGeometryFlipped = false
     }
     
     func layout() {
@@ -75,7 +81,7 @@ extension LoginView {
 
 // MARK: - UITextFieldDelegate
 //Delegates are a design pattern that allows one object to send messages to another object when a specific event happens
-extension LoginView: UITextFieldDelegate{
+extension LoginView: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         usernameTextField.endEditing(true)
